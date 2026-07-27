@@ -1,0 +1,50 @@
+#!/bin/zsh
+
+set -u
+
+PROJECT_DIR="/Users/mac/Desktop/chinese-tts"
+URL="http://127.0.0.1:5000"
+LOG_FILE="$PROJECT_DIR/outputs/launcher.log"
+SERVER_PID=""
+
+mkdir -p "$PROJECT_DIR/outputs"
+
+cleanup() {
+    if [[ -n "$SERVER_PID" ]] && kill -0 "$SERVER_PID" >/dev/null 2>&1; then
+        kill "$SERVER_PID" >/dev/null 2>&1
+        wait "$SERVER_PID" >/dev/null 2>&1
+    fi
+}
+
+trap cleanup EXIT INT TERM
+
+cd "$PROJECT_DIR" || exit 1
+
+if curl --silent --fail "$URL" >/dev/null 2>&1; then
+    open "$URL"
+
+    while curl --silent --fail "$URL" >/dev/null 2>&1; do
+        sleep 2
+    done
+
+    exit 0
+fi
+
+CHINESE_TTS_DEBUG=0 "$PROJECT_DIR/.venv/bin/python" "$PROJECT_DIR/app.py" >> "$LOG_FILE" 2>&1 &
+SERVER_PID="$!"
+
+for _ in {1..40}; do
+    if curl --silent --fail "$URL" >/dev/null 2>&1; then
+        open "$URL"
+        break
+    fi
+
+    if ! kill -0 "$SERVER_PID" >/dev/null 2>&1; then
+        osascript -e 'display dialog "Chinese TTS không khởi động được. Xem outputs/launcher.log để biết lỗi." buttons {"OK"} default button "OK"'
+        exit 1
+    fi
+
+    sleep 0.25
+done
+
+wait "$SERVER_PID"
