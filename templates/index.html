@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinese Dictation — TTS Practice</title>
+  <meta name="description" content="Practice Chinese listening and dictation with text-to-speech powered by Edge TTS." />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header>
+      <h1>🎧 Chinese Dictation</h1>
+      <p>Paste Chinese text, listen, and practice dictation</p>
+    </header>
+
+    <!-- Input Section -->
+    <div class="card">
+      <div class="card-title">📝 Text Input</div>
+      <textarea
+        id="textInput"
+        placeholder="Paste your Chinese text here…"
+        spellcheck="false"
+      ></textarea>
+      <div style="margin-top: 0.75rem;">
+        <div class="controls">
+          <select id="voiceSelect">
+            <option value="">Loading voices…</option>
+          </select>
+          <button class="btn btn-primary" id="btnGenerate" disabled>
+            <span class="spinner"></span>
+            <span class="btn-label">▶ Generate</span>
+          </button>
+        </div>
+      </div>
+      <div class="status" id="status"></div>
+    </div>
+
+    <!-- Word Tracking Section (normal flow) -->
+    <div class="card tracking-section" id="trackingSection">
+      <div class="tracking-header">
+        <div class="card-title" style="margin: 0;">📖 Word Tracking</div>
+        <button class="btn btn-sm btn-outline" id="btnHideTrack" title="Hide / Show text">👁 Hide</button>
+      </div>
+      <div class="tracking-words" id="trackingWords"></div>
+    </div>
+
+    <!-- Dictation Section -->
+    <div class="card dictation-section" id="dictationSection">
+      <div class="card-title">✍️ Dictation Practice</div>
+      <div class="dictation-toolbar">
+        <button class="btn btn-sm btn-outline" id="btnCheck">✓ Check</button>
+        <button class="btn btn-sm btn-outline" id="btnReplay">🔁 Replay</button>
+        <div class="pct-group">
+          <span class="pct-label">Hidden:</span>
+          <select id="pctSelect" class="pct-select">
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+            <option value="70">70%</option>
+            <option value="80">80%</option>
+            <option value="90">90%</option>
+            <option value="100" selected>100%</option>
+          </select>
+          <button class="btn btn-sm btn-outline" id="btnApplyPct">Apply</button>
+        </div>
+      </div>
+      <div class="dictation-grid" id="dictationGrid"></div>
+      <div class="score-bar" id="scoreBar">
+        <span class="score-text">Score</span>
+        <div class="score-meter">
+          <div class="score-fill" id="scoreFill"></div>
+        </div>
+        <span class="score-percent" id="scorePercent">0%</span>
+      </div>
+      <div class="score-detail" id="scoreDetail"></div>
+    </div>
+  </div>
+
+  <!-- Fixed Audio Bar (bottom) -->
+  <div class="audio-bar" id="audioBar">
+    <div class="audio-bar-inner">
+      <div class="audio-row">
+        <div class="skip-group">
+          <button class="skip-adj" id="bwdMinus" title="Decrease">−</button>
+          <button class="skip-btn" id="btnBackward" title="Backward">◀ <span id="bwdVal">3</span>s</button>
+          <button class="skip-adj" id="bwdPlus" title="Increase">+</button>
+        </div>
+        <button class="btn-play" id="btnPlay" title="Play / Pause (Shift)">▶</button>
+        <div class="skip-group">
+          <button class="skip-adj" id="fwdMinus" title="Decrease">−</button>
+          <button class="skip-btn" id="btnForward" title="Forward"><span id="fwdVal">10</span>s ▶</button>
+          <button class="skip-adj" id="fwdPlus" title="Increase">+</button>
+        </div>
+        <div class="progress-bar" id="progressBar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span class="time-display" id="timeDisplay">0:00 / 0:00</span>
+        <div class="speed-dropdown">
+          <button class="speed-toggle" id="speedToggle" title="Playback speed">1.0×</button>
+          <div class="speed-menu" id="speedMenu">
+            <div class="speed-slider-container">
+              <span class="speed-val" id="speedVal">1.0×</span>
+              <input type="range" id="speedSlider" min="0.5" max="2.0" step="0.1" value="1.0" class="speed-slider" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="audio-hint">Space = Play/Pause · ` / ~ = Toggle Track · ← → Skip</div>
+    </div>
+  </div>
+
+  <!-- Selection Right-Click Popup -->
+  <div class="context-popup" id="contextPopup">
+    <div class="popup-header">
+      <span class="popup-title"><span id="popupStt">1</span>. <strong id="popupWord">你好</strong></span>
+      <span class="popup-phonetic" id="popupPhonetic">/nǐ hǎo/</span>
+    </div>
+    <div class="popup-body">
+      <div class="popup-line"><strong>EN:</strong> <span id="popupEn">Loading…</span></div>
+      <div class="popup-line"><strong>VN:</strong> <span id="popupVn">Loading…</span></div>
+    </div>
+    <div class="popup-footer">
+      <button class="btn btn-sm btn-primary" id="btnPopupSave">💾 Save</button>
+    </div>
+  </div>
+
+  <!-- Floating Vocab Circle Chip -->
+  <button class="vocab-chip" id="vocabChip" title="Toggle Saved Vocabulary Panel">
+    🔖 <span id="chipCount">0</span>
+  </button>
+
+  <!-- Saved Vocabulary Sidebar Panel -->
+  <div class="vocab-panel" id="vocabPanel">
+    <div class="vocab-panel-header">
+      <h3>📚 Saved Vocabulary (<span id="panelCount">0</span>)</h3>
+      <div class="vocab-panel-actions">
+        <button class="btn btn-sm btn-primary" id="btnExportVocab">💾 Save to File</button>
+        <button class="btn-close-panel" id="btnClosePanel" title="Close Panel">✖</button>
+      </div>
+    </div>
+    <div class="vocab-panel-body" id="vocabList">
+      <div class="vocab-empty">No words saved yet. Highlight any word & right-click!</div>
+    </div>
+  </div>
+
+  <audio id="audioEl" preload="auto"></audio>
+  <script src="/static/app.js"></script>
+</body>
+</html>
