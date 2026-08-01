@@ -1,0 +1,1987 @@
+{
+  "text": "我 最近 正在 学习 中文，所以 我 想 找 一本 简单的 中文 故事书。我们 走到 二楼，看了 很长 时间。后来，我 找到 了一本 很有意思的 书。这本 书 写的是 一个 孩子 和 一只 小狗的 故事。书里的 汉字 不太 难，还有 很多 漂亮的 图片。\n\n小明 喜欢 看 历史书。他 找了 一本 关于 中国 城市的 书。我们 坐在 窗户 旁边，一起 安静地 看书。窗外 还在 下雨，但是 图书馆里 很 暖和。看书的 时候，我 有 几个 汉字 不认识，就 拿出 手机 查了一下。我 还 把 新的 词 写在 本子上。\n\n十一点半，我们 都 有 一点儿 饿了。图书馆 旁边 有 一家 小饭馆，我们 决定 去 那里 吃 午饭。我 点了 一碗 牛肉面，小明 点了 米饭 和 鱼。饭馆里的 菜 不贵，味道 也 很好。我们 一边 吃饭，一边 聊天。\n\n吃完饭 以后，雨 小了 很多。我们 又 回到 图书馆。下午，小明 帮 我 学习 中文。我 读了 一段 故事，他 听了 以后，告诉 我 哪些 地方 读得 不对。然后，我们 一起 写了 十个 汉字。我 觉得 “谢谢” 和 “朋友” 这几个 字 不太 难，但是 “图书馆” 三个 字 有 一点儿 难写。\n\n下午 四点，我们 准备 回家。出门的 时候，雨 已经 停了。空气 很 新鲜，天 也 慢慢 亮了。路边的 树 很绿，地上 还有 很多 水。我们 没有 坐 公共汽车，而是 慢慢 走 回家。\n\n今天 我们 没有 去 公园，也 没有 打球，但是 我 还是 觉得 很高兴。我 看了 一本 有意思的 书，学了 很多 新的 汉字，还 和 好朋友 一起 吃了 午饭。有时候，下雨天 也 可以 过得 很快乐。",
+  "processed_text": "我最近正在学习中文，所以我想找一本简单的中文故事书。我们走到二楼，看了很长时间。后来，我找到了一本很有意思的书。这本书写的是一个孩子和一只小狗的故事。书里的汉字不太难，还有很多漂亮的图片。\n\n小明喜欢看历史书。他找了一本关于中国城市的书。我们坐在窗户旁边，一起安静地看书。窗外还在下雨，但是图书馆里很暖和。看书的时候，我有几个汉字不认识，就拿出手机查了一下。我还把新的词写在本子上。\n\n十一点半，我们都有一点儿饿了。图书馆旁边有一家小饭馆，我们决定去那里吃午饭。我点了一碗牛肉面，小明点了米饭和鱼。饭馆里的菜不贵，味道也很好。我们一边吃饭，一边聊天。\n\n吃完饭以后，雨小了很多。我们又回到图书馆。下午，小明帮我学习中文。我读了一段故事，他听了以后，告诉我哪些地方读得不对。然后，我们一起写了十个汉字。我觉得“谢谢”和“朋友”这几个字不太难，但是“图书馆”三个字有一点儿难写。\n\n下午四点，我们准备回家。出门的时候，雨已经停了。空气很新鲜，天也慢慢亮了。路边的树很绿，地上还有很多水。我们没有坐公共汽车，而是慢慢走回家。\n\n今天我们没有去公园，也没有打球，但是我还是觉得很高兴。我看了一本有意思的书，学了很多新的汉字，还和好朋友一起吃了午饭。有时候，下雨天也可以过得很快乐。",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "word_boundaries": [
+    {
+      "text": "我",
+      "start": 0.105541,
+      "duration": 0.166666,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "最近",
+      "start": 0.272208,
+      "duration": 0.513875,
+      "pinyin": "zuì jìn"
+    },
+    {
+      "text": "正在",
+      "start": 0.813875,
+      "duration": 0.305541,
+      "pinyin": "zhèng zài"
+    },
+    {
+      "text": "学习",
+      "start": 1.133333,
+      "duration": 0.375,
+      "pinyin": "xué xí"
+    },
+    {
+      "text": "中文",
+      "start": 1.522208,
+      "duration": 0.569458,
+      "pinyin": "zhōng wén"
+    },
+    {
+      "text": "所以",
+      "start": 2.466666,
+      "duration": 0.513875,
+      "pinyin": "suǒ yǐ"
+    },
+    {
+      "text": "我",
+      "start": 2.994458,
+      "duration": 0.166666,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "想",
+      "start": 3.161125,
+      "duration": 0.222208,
+      "pinyin": "xiǎng"
+    },
+    {
+      "text": "找",
+      "start": 3.397208,
+      "duration": 0.180541,
+      "pinyin": "zhǎo"
+    },
+    {
+      "text": "一本",
+      "start": 3.577791,
+      "duration": 0.375,
+      "pinyin": "yī běn"
+    },
+    {
+      "text": "简单",
+      "start": 3.980541,
+      "duration": 0.388875,
+      "pinyin": "jiǎn dān"
+    },
+    {
+      "text": "的",
+      "start": 4.369458,
+      "duration": 0.111125,
+      "pinyin": "de"
+    },
+    {
+      "text": "中文",
+      "start": 4.508333,
+      "duration": 0.388875,
+      "pinyin": "zhōng wén"
+    },
+    {
+      "text": "故事",
+      "start": 4.911125,
+      "duration": 0.305541,
+      "pinyin": "gù shì"
+    },
+    {
+      "text": "书",
+      "start": 5.216666,
+      "duration": 0.333333,
+      "pinyin": "shū"
+    },
+    {
+      "text": "我们",
+      "start": 6.166666,
+      "duration": 0.277791,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "走",
+      "start": 6.458333,
+      "duration": 0.152791,
+      "pinyin": "zǒu"
+    },
+    {
+      "text": "到",
+      "start": 6.611125,
+      "duration": 0.138875,
+      "pinyin": "dào"
+    },
+    {
+      "text": "二",
+      "start": 6.763875,
+      "duration": 0.25,
+      "pinyin": "èr"
+    },
+    {
+      "text": "楼",
+      "start": 7.013875,
+      "duration": 0.305541,
+      "pinyin": "lóu"
+    },
+    {
+      "text": "看",
+      "start": 7.541666,
+      "duration": 0.222208,
+      "pinyin": "kàn"
+    },
+    {
+      "text": "了",
+      "start": 7.763875,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "很",
+      "start": 7.861125,
+      "duration": 0.194416,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "长",
+      "start": 8.055541,
+      "duration": 0.277791,
+      "pinyin": "zhǎng"
+    },
+    {
+      "text": "时间",
+      "start": 8.347208,
+      "duration": 0.513875,
+      "pinyin": "shí jiān"
+    },
+    {
+      "text": "后来",
+      "start": 9.486125,
+      "duration": 0.555541,
+      "pinyin": "hòu lái"
+    },
+    {
+      "text": "我",
+      "start": 10.277791,
+      "duration": 0.125,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "找到",
+      "start": 10.416666,
+      "duration": 0.375,
+      "pinyin": "zhǎo dào"
+    },
+    {
+      "text": "了",
+      "start": 10.791666,
+      "duration": 0.069458,
+      "pinyin": "le"
+    },
+    {
+      "text": "一本",
+      "start": 10.875,
+      "duration": 0.305541,
+      "pinyin": "yī běn"
+    },
+    {
+      "text": "很",
+      "start": 11.208333,
+      "duration": 0.208333,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "有",
+      "start": 11.416666,
+      "duration": 0.166666,
+      "pinyin": "yǒu"
+    },
+    {
+      "text": "意思",
+      "start": 11.583333,
+      "duration": 0.333333,
+      "pinyin": "yì si"
+    },
+    {
+      "text": "的",
+      "start": 11.916666,
+      "duration": 0.138875,
+      "pinyin": "de"
+    },
+    {
+      "text": "书",
+      "start": 12.055541,
+      "duration": 0.347208,
+      "pinyin": "shū"
+    },
+    {
+      "text": "这",
+      "start": 13.013875,
+      "duration": 0.208333,
+      "pinyin": "zhè"
+    },
+    {
+      "text": "本",
+      "start": 13.222208,
+      "duration": 0.152791,
+      "pinyin": "běn"
+    },
+    {
+      "text": "书写",
+      "start": 13.388875,
+      "duration": 0.5,
+      "pinyin": "shū xiě"
+    },
+    {
+      "text": "的",
+      "start": 13.888875,
+      "duration": 0.319458,
+      "pinyin": "de"
+    },
+    {
+      "text": "是",
+      "start": 14.319458,
+      "duration": 0.166666,
+      "pinyin": "shì"
+    },
+    {
+      "text": "一个",
+      "start": 14.486125,
+      "duration": 0.194458,
+      "pinyin": "yí gè"
+    },
+    {
+      "text": "孩子",
+      "start": 14.694458,
+      "duration": 0.680541,
+      "pinyin": "hái zi"
+    },
+    {
+      "text": "和",
+      "start": 15.486125,
+      "duration": 0.152791,
+      "pinyin": "hé"
+    },
+    {
+      "text": "一",
+      "start": 15.652791,
+      "duration": 0.138875,
+      "pinyin": "yī"
+    },
+    {
+      "text": "只",
+      "start": 15.791666,
+      "duration": 0.125,
+      "pinyin": "zhǐ"
+    },
+    {
+      "text": "小狗",
+      "start": 15.930541,
+      "duration": 0.472208,
+      "pinyin": "xiǎo gǒu"
+    },
+    {
+      "text": "的",
+      "start": 16.402791,
+      "duration": 0.097208,
+      "pinyin": "de"
+    },
+    {
+      "text": "故事",
+      "start": 16.513875,
+      "duration": 0.527791,
+      "pinyin": "gù shì"
+    },
+    {
+      "text": "书",
+      "start": 17.680541,
+      "duration": 0.305541,
+      "pinyin": "shū"
+    },
+    {
+      "text": "里",
+      "start": 17.986125,
+      "duration": 0.125,
+      "pinyin": "lǐ"
+    },
+    {
+      "text": "的",
+      "start": 18.111125,
+      "duration": 0.097208,
+      "pinyin": "de"
+    },
+    {
+      "text": "汉字",
+      "start": 18.222208,
+      "duration": 0.458333,
+      "pinyin": "hàn zì"
+    },
+    {
+      "text": "不",
+      "start": 18.708333,
+      "duration": 0.111125,
+      "pinyin": "bù"
+    },
+    {
+      "text": "太",
+      "start": 18.819458,
+      "duration": 0.25,
+      "pinyin": "tài"
+    },
+    {
+      "text": "难",
+      "start": 19.069458,
+      "duration": 0.375,
+      "pinyin": "nán"
+    },
+    {
+      "text": "还有",
+      "start": 19.708333,
+      "duration": 0.263875,
+      "pinyin": "hái yǒu"
+    },
+    {
+      "text": "很多",
+      "start": 19.986125,
+      "duration": 0.444458,
+      "pinyin": "hěn duō"
+    },
+    {
+      "text": "漂亮",
+      "start": 20.458333,
+      "duration": 0.416666,
+      "pinyin": "piào liàng"
+    },
+    {
+      "text": "的",
+      "start": 20.875,
+      "duration": 0.097208,
+      "pinyin": "de"
+    },
+    {
+      "text": "图片",
+      "start": 20.986125,
+      "duration": 0.583333,
+      "pinyin": "tú piàn"
+    },
+    {
+      "text": "小明",
+      "start": 22.208333,
+      "duration": 0.527791,
+      "pinyin": "xiǎo míng"
+    },
+    {
+      "text": "喜欢",
+      "start": 22.763875,
+      "duration": 0.333333,
+      "pinyin": "xǐ huān"
+    },
+    {
+      "text": "看",
+      "start": 23.111125,
+      "duration": 0.222208,
+      "pinyin": "kàn"
+    },
+    {
+      "text": "历史",
+      "start": 23.347208,
+      "duration": 0.375,
+      "pinyin": "lì shǐ"
+    },
+    {
+      "text": "书",
+      "start": 23.722208,
+      "duration": 0.388875,
+      "pinyin": "shū"
+    },
+    {
+      "text": "他",
+      "start": 24.736125,
+      "duration": 0.166666,
+      "pinyin": "tā"
+    },
+    {
+      "text": "找",
+      "start": 24.916666,
+      "duration": 0.222208,
+      "pinyin": "zhǎo"
+    },
+    {
+      "text": "了",
+      "start": 25.138875,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "一本",
+      "start": 25.236125,
+      "duration": 0.361125,
+      "pinyin": "yī běn"
+    },
+    {
+      "text": "关于",
+      "start": 25.625,
+      "duration": 0.361125,
+      "pinyin": "guān yú"
+    },
+    {
+      "text": "中国",
+      "start": 26.013875,
+      "duration": 0.361125,
+      "pinyin": "zhōng guó"
+    },
+    {
+      "text": "城市",
+      "start": 26.388875,
+      "duration": 0.430541,
+      "pinyin": "chéng shì"
+    },
+    {
+      "text": "的",
+      "start": 26.819458,
+      "duration": 0.125,
+      "pinyin": "de"
+    },
+    {
+      "text": "书",
+      "start": 26.944458,
+      "duration": 0.375,
+      "pinyin": "shū"
+    },
+    {
+      "text": "我们",
+      "start": 27.944458,
+      "duration": 0.277791,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "坐",
+      "start": 28.236125,
+      "duration": 0.180541,
+      "pinyin": "zuò"
+    },
+    {
+      "text": "在",
+      "start": 28.416666,
+      "duration": 0.180541,
+      "pinyin": "zài"
+    },
+    {
+      "text": "窗户",
+      "start": 28.625,
+      "duration": 0.333333,
+      "pinyin": "chuāng hù"
+    },
+    {
+      "text": "旁边",
+      "start": 28.972208,
+      "duration": 0.583333,
+      "pinyin": "páng biān"
+    },
+    {
+      "text": "一起",
+      "start": 29.847208,
+      "duration": 0.375,
+      "pinyin": "yì qǐ"
+    },
+    {
+      "text": "安静",
+      "start": 30.25,
+      "duration": 0.388875,
+      "pinyin": "ān jìng"
+    },
+    {
+      "text": "地",
+      "start": 30.638875,
+      "duration": 0.097208,
+      "pinyin": "dì"
+    },
+    {
+      "text": "看书",
+      "start": 30.75,
+      "duration": 0.597208,
+      "pinyin": "kàn shū"
+    },
+    {
+      "text": "窗外",
+      "start": 31.972208,
+      "duration": 0.416666,
+      "pinyin": "chuāng wài"
+    },
+    {
+      "text": "还",
+      "start": 32.416666,
+      "duration": 0.166666,
+      "pinyin": "hái"
+    },
+    {
+      "text": "在",
+      "start": 32.583333,
+      "duration": 0.152791,
+      "pinyin": "zài"
+    },
+    {
+      "text": "下雨",
+      "start": 32.75,
+      "duration": 0.597208,
+      "pinyin": "xià yǔ"
+    },
+    {
+      "text": "但是",
+      "start": 33.638875,
+      "duration": 0.305541,
+      "pinyin": "dàn shì"
+    },
+    {
+      "text": "图书馆",
+      "start": 33.972208,
+      "duration": 0.541666,
+      "pinyin": "tú shū guǎn"
+    },
+    {
+      "text": "里",
+      "start": 34.513875,
+      "duration": 0.111125,
+      "pinyin": "lǐ"
+    },
+    {
+      "text": "很",
+      "start": 34.652791,
+      "duration": 0.222208,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "暖和",
+      "start": 34.875,
+      "duration": 0.569458,
+      "pinyin": "nuǎn huo"
+    },
+    {
+      "text": "看书",
+      "start": 36.069458,
+      "duration": 0.472208,
+      "pinyin": "kàn shū"
+    },
+    {
+      "text": "的",
+      "start": 36.541666,
+      "duration": 0.111125,
+      "pinyin": "de"
+    },
+    {
+      "text": "时候",
+      "start": 36.666666,
+      "duration": 0.555541,
+      "pinyin": "shí hòu"
+    },
+    {
+      "text": "我",
+      "start": 37.486125,
+      "duration": 0.125,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "有",
+      "start": 37.611125,
+      "duration": 0.138875,
+      "pinyin": "yǒu"
+    },
+    {
+      "text": "几个",
+      "start": 37.763875,
+      "duration": 0.236125,
+      "pinyin": "jǐ gè"
+    },
+    {
+      "text": "汉字",
+      "start": 38.013875,
+      "duration": 0.611125,
+      "pinyin": "hàn zì"
+    },
+    {
+      "text": "不",
+      "start": 38.736125,
+      "duration": 0.138875,
+      "pinyin": "bù"
+    },
+    {
+      "text": "认识",
+      "start": 38.875,
+      "duration": 0.597208,
+      "pinyin": "rèn shí"
+    },
+    {
+      "text": "就",
+      "start": 39.75,
+      "duration": 0.152791,
+      "pinyin": "jiù"
+    },
+    {
+      "text": "拿",
+      "start": 39.916666,
+      "duration": 0.166666,
+      "pinyin": "ná"
+    },
+    {
+      "text": "出",
+      "start": 40.083333,
+      "duration": 0.152791,
+      "pinyin": "chū"
+    },
+    {
+      "text": "手机",
+      "start": 40.25,
+      "duration": 0.416666,
+      "pinyin": "shǒu jī"
+    },
+    {
+      "text": "查",
+      "start": 40.694458,
+      "duration": 0.291666,
+      "pinyin": "chá"
+    },
+    {
+      "text": "了",
+      "start": 40.986125,
+      "duration": 0.097208,
+      "pinyin": "le"
+    },
+    {
+      "text": "一下",
+      "start": 41.097208,
+      "duration": 0.416666,
+      "pinyin": "yī xià"
+    },
+    {
+      "text": "我",
+      "start": 42.152791,
+      "duration": 0.125,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "还",
+      "start": 42.277791,
+      "duration": 0.15275,
+      "pinyin": "hái"
+    },
+    {
+      "text": "把",
+      "start": 42.430541,
+      "duration": 0.152791,
+      "pinyin": "bǎ"
+    },
+    {
+      "text": "新",
+      "start": 42.611125,
+      "duration": 0.25,
+      "pinyin": "xīn"
+    },
+    {
+      "text": "的",
+      "start": 42.861125,
+      "duration": 0.138875,
+      "pinyin": "de"
+    },
+    {
+      "text": "词",
+      "start": 43.0,
+      "duration": 0.402791,
+      "pinyin": "cí"
+    },
+    {
+      "text": "写",
+      "start": 43.513875,
+      "duration": 0.208333,
+      "pinyin": "xiě"
+    },
+    {
+      "text": "在",
+      "start": 43.722208,
+      "duration": 0.152791,
+      "pinyin": "zài"
+    },
+    {
+      "text": "本子",
+      "start": 43.888875,
+      "duration": 0.361125,
+      "pinyin": "běn zi"
+    },
+    {
+      "text": "上",
+      "start": 44.25,
+      "duration": 0.319458,
+      "pinyin": "shàng"
+    },
+    {
+      "text": "十一点半",
+      "start": 45.194458,
+      "duration": 0.916666,
+      "pinyin": "shí yì diǎn bàn"
+    },
+    {
+      "text": "我们",
+      "start": 46.416666,
+      "duration": 0.208333,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "都",
+      "start": 46.638875,
+      "duration": 0.138875,
+      "pinyin": "dōu"
+    },
+    {
+      "text": "有一点儿",
+      "start": 46.791666,
+      "duration": 0.458333,
+      "pinyin": "yǒu yì diǎn ér"
+    },
+    {
+      "text": "饿",
+      "start": 47.263875,
+      "duration": 0.263875,
+      "pinyin": "è"
+    },
+    {
+      "text": "了",
+      "start": 47.527791,
+      "duration": 0.222208,
+      "pinyin": "le"
+    },
+    {
+      "text": "图书馆",
+      "start": 48.375,
+      "duration": 0.527791,
+      "pinyin": "tú shū guǎn"
+    },
+    {
+      "text": "旁边",
+      "start": 48.916666,
+      "duration": 0.569458,
+      "pinyin": "páng biān"
+    },
+    {
+      "text": "有",
+      "start": 49.583333,
+      "duration": 0.138875,
+      "pinyin": "yǒu"
+    },
+    {
+      "text": "一家",
+      "start": 49.722208,
+      "duration": 0.291666,
+      "pinyin": "yī jiā"
+    },
+    {
+      "text": "小",
+      "start": 50.027791,
+      "duration": 0.222208,
+      "pinyin": "xiǎo"
+    },
+    {
+      "text": "饭馆",
+      "start": 50.25,
+      "duration": 0.527791,
+      "pinyin": "fàn guǎn"
+    },
+    {
+      "text": "我们",
+      "start": 51.111125,
+      "duration": 0.236125,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "决定",
+      "start": 51.361125,
+      "duration": 0.416666,
+      "pinyin": "jué dìng"
+    },
+    {
+      "text": "去",
+      "start": 51.805541,
+      "duration": 0.125,
+      "pinyin": "qù"
+    },
+    {
+      "text": "那里",
+      "start": 51.944458,
+      "duration": 0.305541,
+      "pinyin": "nà lǐ"
+    },
+    {
+      "text": "吃",
+      "start": 52.277791,
+      "duration": 0.180541,
+      "pinyin": "chī"
+    },
+    {
+      "text": "午饭",
+      "start": 52.458333,
+      "duration": 0.513875,
+      "pinyin": "wǔ fàn"
+    },
+    {
+      "text": "我",
+      "start": 53.597208,
+      "duration": 0.166666,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "点",
+      "start": 53.763875,
+      "duration": 0.194458,
+      "pinyin": "diǎn"
+    },
+    {
+      "text": "了",
+      "start": 53.958333,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "一",
+      "start": 54.055541,
+      "duration": 0.125,
+      "pinyin": "yī"
+    },
+    {
+      "text": "碗",
+      "start": 54.180541,
+      "duration": 0.180541,
+      "pinyin": "wǎn"
+    },
+    {
+      "text": "牛肉面",
+      "start": 54.388875,
+      "duration": 0.680541,
+      "pinyin": "niú ròu miàn"
+    },
+    {
+      "text": "小明点",
+      "start": 55.375,
+      "duration": 0.625,
+      "pinyin": "xiǎo míng diǎn"
+    },
+    {
+      "text": "了",
+      "start": 56.0,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "米饭",
+      "start": 56.097208,
+      "duration": 0.402791,
+      "pinyin": "mǐ fàn"
+    },
+    {
+      "text": "和",
+      "start": 56.527791,
+      "duration": 0.194416,
+      "pinyin": "hé"
+    },
+    {
+      "text": "鱼",
+      "start": 56.722208,
+      "duration": 0.375,
+      "pinyin": "yú"
+    },
+    {
+      "text": "饭馆",
+      "start": 57.708333,
+      "duration": 0.486125,
+      "pinyin": "fàn guǎn"
+    },
+    {
+      "text": "里",
+      "start": 58.194458,
+      "duration": 0.111083,
+      "pinyin": "lǐ"
+    },
+    {
+      "text": "的",
+      "start": 58.305541,
+      "duration": 0.097208,
+      "pinyin": "de"
+    },
+    {
+      "text": "菜",
+      "start": 58.416666,
+      "duration": 0.222208,
+      "pinyin": "cài"
+    },
+    {
+      "text": "不",
+      "start": 58.652791,
+      "duration": 0.138875,
+      "pinyin": "bù"
+    },
+    {
+      "text": "贵",
+      "start": 58.791666,
+      "duration": 0.291666,
+      "pinyin": "guì"
+    },
+    {
+      "text": "味道",
+      "start": 59.402791,
+      "duration": 0.347208,
+      "pinyin": "wèi dào"
+    },
+    {
+      "text": "也",
+      "start": 59.763875,
+      "duration": 0.138875,
+      "pinyin": "yě"
+    },
+    {
+      "text": "很",
+      "start": 59.916666,
+      "duration": 0.236125,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "好",
+      "start": 60.152791,
+      "duration": 0.375,
+      "pinyin": "hǎo"
+    },
+    {
+      "text": "我们",
+      "start": 61.152791,
+      "duration": 0.25,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "一边",
+      "start": 61.416666,
+      "duration": 0.361125,
+      "pinyin": "yī biān"
+    },
+    {
+      "text": "吃饭",
+      "start": 61.791666,
+      "duration": 0.527791,
+      "pinyin": "chī fàn"
+    },
+    {
+      "text": "一边",
+      "start": 62.611125,
+      "duration": 0.333333,
+      "pinyin": "yī biān"
+    },
+    {
+      "text": "聊天",
+      "start": 62.958333,
+      "duration": 0.569458,
+      "pinyin": "liáo tiān"
+    },
+    {
+      "text": "吃完",
+      "start": 64.152791,
+      "duration": 0.388875,
+      "pinyin": "chī wán"
+    },
+    {
+      "text": "饭",
+      "start": 64.541666,
+      "duration": 0.194458,
+      "pinyin": "fàn"
+    },
+    {
+      "text": "以后",
+      "start": 64.75,
+      "duration": 0.513875,
+      "pinyin": "yǐ hòu"
+    },
+    {
+      "text": "雨",
+      "start": 65.472208,
+      "duration": 0.152791,
+      "pinyin": "yǔ"
+    },
+    {
+      "text": "小",
+      "start": 65.625,
+      "duration": 0.236125,
+      "pinyin": "xiǎo"
+    },
+    {
+      "text": "了",
+      "start": 65.861125,
+      "duration": 0.097208,
+      "pinyin": "le"
+    },
+    {
+      "text": "很多",
+      "start": 65.972208,
+      "duration": 0.555541,
+      "pinyin": "hěn duō"
+    },
+    {
+      "text": "我们",
+      "start": 67.166666,
+      "duration": 0.25,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "又",
+      "start": 67.430541,
+      "duration": 0.222208,
+      "pinyin": "yòu"
+    },
+    {
+      "text": "回到",
+      "start": 67.652791,
+      "duration": 0.319458,
+      "pinyin": "huí dào"
+    },
+    {
+      "text": "图书馆",
+      "start": 67.986125,
+      "duration": 0.722208,
+      "pinyin": "tú shū guǎn"
+    },
+    {
+      "text": "下午",
+      "start": 69.347208,
+      "duration": 0.597208,
+      "pinyin": "xià wǔ"
+    },
+    {
+      "text": "小明",
+      "start": 70.236125,
+      "duration": 0.402791,
+      "pinyin": "xiǎo míng"
+    },
+    {
+      "text": "帮",
+      "start": 70.652791,
+      "duration": 0.166666,
+      "pinyin": "bāng"
+    },
+    {
+      "text": "我",
+      "start": 70.819458,
+      "duration": 0.097208,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "学习",
+      "start": 70.930541,
+      "duration": 0.375,
+      "pinyin": "xué xí"
+    },
+    {
+      "text": "中文",
+      "start": 71.319458,
+      "duration": 0.527791,
+      "pinyin": "zhōng wén"
+    },
+    {
+      "text": "我",
+      "start": 72.486125,
+      "duration": 0.166666,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "读",
+      "start": 72.652791,
+      "duration": 0.180541,
+      "pinyin": "dú"
+    },
+    {
+      "text": "了",
+      "start": 72.833333,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "一段",
+      "start": 72.930541,
+      "duration": 0.333333,
+      "pinyin": "yī duàn"
+    },
+    {
+      "text": "故事",
+      "start": 73.277791,
+      "duration": 0.597208,
+      "pinyin": "gù shì"
+    },
+    {
+      "text": "他",
+      "start": 74.194458,
+      "duration": 0.15275,
+      "pinyin": "tā"
+    },
+    {
+      "text": "听",
+      "start": 74.347208,
+      "duration": 0.194458,
+      "pinyin": "tīng"
+    },
+    {
+      "text": "了",
+      "start": 74.541666,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "以后",
+      "start": 74.638875,
+      "duration": 0.513875,
+      "pinyin": "yǐ hòu"
+    },
+    {
+      "text": "告诉",
+      "start": 75.444458,
+      "duration": 0.388875,
+      "pinyin": "gào sù"
+    },
+    {
+      "text": "我",
+      "start": 75.847208,
+      "duration": 0.361125,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "哪些",
+      "start": 76.319458,
+      "duration": 0.375,
+      "pinyin": "nǎ xiē"
+    },
+    {
+      "text": "地方",
+      "start": 76.708333,
+      "duration": 0.388875,
+      "pinyin": "dì fāng"
+    },
+    {
+      "text": "读",
+      "start": 77.125,
+      "duration": 0.152791,
+      "pinyin": "dú"
+    },
+    {
+      "text": "得",
+      "start": 77.277791,
+      "duration": 0.111125,
+      "pinyin": "dé"
+    },
+    {
+      "text": "不对",
+      "start": 77.402791,
+      "duration": 0.458333,
+      "pinyin": "bú duì"
+    },
+    {
+      "text": "然后",
+      "start": 78.486125,
+      "duration": 0.597208,
+      "pinyin": "rán hòu"
+    },
+    {
+      "text": "我们",
+      "start": 79.375,
+      "duration": 0.222208,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "一起",
+      "start": 79.611125,
+      "duration": 0.652791,
+      "pinyin": "yì qǐ"
+    },
+    {
+      "text": "写",
+      "start": 80.361125,
+      "duration": 0.208333,
+      "pinyin": "xiě"
+    },
+    {
+      "text": "了",
+      "start": 80.569458,
+      "duration": 0.083333,
+      "pinyin": "le"
+    },
+    {
+      "text": "十",
+      "start": 80.680541,
+      "duration": 0.222208,
+      "pinyin": "shí"
+    },
+    {
+      "text": "个",
+      "start": 80.902791,
+      "duration": 0.097208,
+      "pinyin": "gè"
+    },
+    {
+      "text": "汉字",
+      "start": 81.013875,
+      "duration": 0.569458,
+      "pinyin": "hàn zì"
+    },
+    {
+      "text": "我",
+      "start": 82.208333,
+      "duration": 0.180541,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "觉得",
+      "start": 82.388875,
+      "duration": 0.583333,
+      "pinyin": "jué de"
+    },
+    {
+      "text": "谢谢",
+      "start": 83.083333,
+      "duration": 0.402791,
+      "pinyin": "xiè xiè"
+    },
+    {
+      "text": "和",
+      "start": 83.513875,
+      "duration": 0.125,
+      "pinyin": "hé"
+    },
+    {
+      "text": "朋友",
+      "start": 83.652791,
+      "duration": 0.333333,
+      "pinyin": "péng yǒu"
+    },
+    {
+      "text": "这",
+      "start": 84.013875,
+      "duration": 0.125,
+      "pinyin": "zhè"
+    },
+    {
+      "text": "几个",
+      "start": 84.152791,
+      "duration": 0.25,
+      "pinyin": "jǐ gè"
+    },
+    {
+      "text": "字",
+      "start": 84.402791,
+      "duration": 0.180541,
+      "pinyin": "zì"
+    },
+    {
+      "text": "不",
+      "start": 84.611125,
+      "duration": 0.111083,
+      "pinyin": "bù"
+    },
+    {
+      "text": "太",
+      "start": 84.722208,
+      "duration": 0.222208,
+      "pinyin": "tài"
+    },
+    {
+      "text": "难",
+      "start": 84.944458,
+      "duration": 0.347208,
+      "pinyin": "nán"
+    },
+    {
+      "text": "但是",
+      "start": 85.722208,
+      "duration": 0.291666,
+      "pinyin": "dàn shì"
+    },
+    {
+      "text": "图书馆",
+      "start": 86.041666,
+      "duration": 0.569458,
+      "pinyin": "tú shū guǎn"
+    },
+    {
+      "text": "三个",
+      "start": 86.638875,
+      "duration": 0.347208,
+      "pinyin": "sān gè"
+    },
+    {
+      "text": "字",
+      "start": 86.986125,
+      "duration": 0.347208,
+      "pinyin": "zì"
+    },
+    {
+      "text": "有一点儿",
+      "start": 87.444458,
+      "duration": 0.513875,
+      "pinyin": "yǒu yì diǎn ér"
+    },
+    {
+      "text": "难",
+      "start": 87.972208,
+      "duration": 0.277791,
+      "pinyin": "nán"
+    },
+    {
+      "text": "写",
+      "start": 88.25,
+      "duration": 0.375,
+      "pinyin": "xiě"
+    },
+    {
+      "text": "下午四点",
+      "start": 89.25,
+      "duration": 1.013875,
+      "pinyin": "xià wǔ sì diǎn"
+    },
+    {
+      "text": "我们",
+      "start": 90.527791,
+      "duration": 0.222208,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "准备",
+      "start": 90.763875,
+      "duration": 0.291666,
+      "pinyin": "zhǔn bèi"
+    },
+    {
+      "text": "回家",
+      "start": 91.069458,
+      "duration": 0.541666,
+      "pinyin": "huí jiā"
+    },
+    {
+      "text": "出门",
+      "start": 92.25,
+      "duration": 0.444458,
+      "pinyin": "chū mén"
+    },
+    {
+      "text": "的",
+      "start": 92.694458,
+      "duration": 0.111125,
+      "pinyin": "de"
+    },
+    {
+      "text": "时候",
+      "start": 92.819458,
+      "duration": 0.569458,
+      "pinyin": "shí hòu"
+    },
+    {
+      "text": "雨",
+      "start": 93.597208,
+      "duration": 0.125,
+      "pinyin": "yǔ"
+    },
+    {
+      "text": "已经",
+      "start": 93.736125,
+      "duration": 0.305541,
+      "pinyin": "yǐ jīng"
+    },
+    {
+      "text": "停",
+      "start": 94.055541,
+      "duration": 0.319458,
+      "pinyin": "tíng"
+    },
+    {
+      "text": "了",
+      "start": 94.375,
+      "duration": 0.222208,
+      "pinyin": "le"
+    },
+    {
+      "text": "空气",
+      "start": 95.208333,
+      "duration": 0.361125,
+      "pinyin": "kōng qì"
+    },
+    {
+      "text": "很",
+      "start": 95.597208,
+      "duration": 0.208333,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "新鲜",
+      "start": 95.805541,
+      "duration": 0.611125,
+      "pinyin": "xīn xiān"
+    },
+    {
+      "text": "天",
+      "start": 96.680541,
+      "duration": 0.25,
+      "pinyin": "tiān"
+    },
+    {
+      "text": "也",
+      "start": 96.944458,
+      "duration": 0.111125,
+      "pinyin": "yě"
+    },
+    {
+      "text": "慢慢",
+      "start": 97.069458,
+      "duration": 0.347208,
+      "pinyin": "màn màn"
+    },
+    {
+      "text": "亮",
+      "start": 97.430541,
+      "duration": 0.263875,
+      "pinyin": "liàng"
+    },
+    {
+      "text": "了",
+      "start": 97.694458,
+      "duration": 0.208333,
+      "pinyin": "le"
+    },
+    {
+      "text": "路边",
+      "start": 98.513875,
+      "duration": 0.375,
+      "pinyin": "lù biān"
+    },
+    {
+      "text": "的",
+      "start": 98.888875,
+      "duration": 0.111125,
+      "pinyin": "de"
+    },
+    {
+      "text": "树",
+      "start": 99.0,
+      "duration": 0.180541,
+      "pinyin": "shù"
+    },
+    {
+      "text": "很",
+      "start": 99.194458,
+      "duration": 0.263875,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "绿",
+      "start": 99.458333,
+      "duration": 0.263875,
+      "pinyin": "lǜ"
+    },
+    {
+      "text": "地上",
+      "start": 100.013875,
+      "duration": 0.402791,
+      "pinyin": "dì shàng"
+    },
+    {
+      "text": "还有",
+      "start": 100.444458,
+      "duration": 0.25,
+      "pinyin": "hái yǒu"
+    },
+    {
+      "text": "很多",
+      "start": 100.708333,
+      "duration": 0.444458,
+      "pinyin": "hěn duō"
+    },
+    {
+      "text": "水",
+      "start": 101.152791,
+      "duration": 0.375,
+      "pinyin": "shuǐ"
+    },
+    {
+      "text": "我们",
+      "start": 102.152791,
+      "duration": 0.277791,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "没有",
+      "start": 102.444458,
+      "duration": 0.305541,
+      "pinyin": "méi yǒu"
+    },
+    {
+      "text": "坐",
+      "start": 102.763875,
+      "duration": 0.222208,
+      "pinyin": "zuò"
+    },
+    {
+      "text": "公共汽车",
+      "start": 103.013875,
+      "duration": 0.972208,
+      "pinyin": "gōng gòng qì chē"
+    },
+    {
+      "text": "而是",
+      "start": 104.263875,
+      "duration": 0.319458,
+      "pinyin": "ér shì"
+    },
+    {
+      "text": "慢慢",
+      "start": 104.611125,
+      "duration": 0.416666,
+      "pinyin": "màn màn"
+    },
+    {
+      "text": "走",
+      "start": 105.041666,
+      "duration": 0.194458,
+      "pinyin": "zǒu"
+    },
+    {
+      "text": "回家",
+      "start": 105.236125,
+      "duration": 0.569458,
+      "pinyin": "huí jiā"
+    },
+    {
+      "text": "今天",
+      "start": 106.430541,
+      "duration": 0.652791,
+      "pinyin": "jīn tiān"
+    },
+    {
+      "text": "我们",
+      "start": 107.194458,
+      "duration": 0.236125,
+      "pinyin": "wǒ men"
+    },
+    {
+      "text": "没有",
+      "start": 107.444458,
+      "duration": 0.277791,
+      "pinyin": "méi yǒu"
+    },
+    {
+      "text": "去",
+      "start": 107.736125,
+      "duration": 0.152791,
+      "pinyin": "qù"
+    },
+    {
+      "text": "公园",
+      "start": 107.902791,
+      "duration": 0.597208,
+      "pinyin": "gōng yuán"
+    },
+    {
+      "text": "也",
+      "start": 108.722208,
+      "duration": 0.125,
+      "pinyin": "yě"
+    },
+    {
+      "text": "没有",
+      "start": 108.847208,
+      "duration": 0.222208,
+      "pinyin": "méi yǒu"
+    },
+    {
+      "text": "打球",
+      "start": 109.083333,
+      "duration": 0.583333,
+      "pinyin": "dǎ qiú"
+    },
+    {
+      "text": "但是",
+      "start": 110.083333,
+      "duration": 0.402791,
+      "pinyin": "dàn shì"
+    },
+    {
+      "text": "我",
+      "start": 110.5,
+      "duration": 0.125,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "还是",
+      "start": 110.638875,
+      "duration": 0.375,
+      "pinyin": "hái shì"
+    },
+    {
+      "text": "觉得",
+      "start": 111.027791,
+      "duration": 0.25,
+      "pinyin": "jué de"
+    },
+    {
+      "text": "很",
+      "start": 111.305541,
+      "duration": 0.194458,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "高兴",
+      "start": 111.5,
+      "duration": 0.513875,
+      "pinyin": "gāo xìng"
+    },
+    {
+      "text": "我",
+      "start": 112.638875,
+      "duration": 0.166666,
+      "pinyin": "wǒ"
+    },
+    {
+      "text": "看",
+      "start": 112.805541,
+      "duration": 0.222208,
+      "pinyin": "kàn"
+    },
+    {
+      "text": "了",
+      "start": 113.027791,
+      "duration": 0.069458,
+      "pinyin": "le"
+    },
+    {
+      "text": "一本",
+      "start": 113.111125,
+      "duration": 0.319458,
+      "pinyin": "yī běn"
+    },
+    {
+      "text": "有",
+      "start": 113.458333,
+      "duration": 0.166666,
+      "pinyin": "yǒu"
+    },
+    {
+      "text": "意思",
+      "start": 113.625,
+      "duration": 0.361125,
+      "pinyin": "yì si"
+    },
+    {
+      "text": "的",
+      "start": 113.986125,
+      "duration": 0.138875,
+      "pinyin": "de"
+    },
+    {
+      "text": "书",
+      "start": 114.125,
+      "duration": 0.347208,
+      "pinyin": "shū"
+    },
+    {
+      "text": "学",
+      "start": 114.763875,
+      "duration": 0.194458,
+      "pinyin": "xué"
+    },
+    {
+      "text": "了",
+      "start": 114.958333,
+      "duration": 0.097208,
+      "pinyin": "le"
+    },
+    {
+      "text": "很多",
+      "start": 115.069458,
+      "duration": 0.375,
+      "pinyin": "hěn duō"
+    },
+    {
+      "text": "新",
+      "start": 115.472208,
+      "duration": 0.236125,
+      "pinyin": "xīn"
+    },
+    {
+      "text": "的",
+      "start": 115.708333,
+      "duration": 0.097208,
+      "pinyin": "de"
+    },
+    {
+      "text": "汉字",
+      "start": 115.819458,
+      "duration": 0.583333,
+      "pinyin": "hàn zì"
+    },
+    {
+      "text": "还",
+      "start": 116.75,
+      "duration": 0.152791,
+      "pinyin": "hái"
+    },
+    {
+      "text": "和好",
+      "start": 116.916666,
+      "duration": 0.375,
+      "pinyin": "hé hǎo"
+    },
+    {
+      "text": "朋友",
+      "start": 117.305541,
+      "duration": 0.527791,
+      "pinyin": "péng yǒu"
+    },
+    {
+      "text": "一起",
+      "start": 117.861125,
+      "duration": 0.347208,
+      "pinyin": "yì qǐ"
+    },
+    {
+      "text": "吃",
+      "start": 118.222208,
+      "duration": 0.180541,
+      "pinyin": "chī"
+    },
+    {
+      "text": "了",
+      "start": 118.402791,
+      "duration": 0.111125,
+      "pinyin": "le"
+    },
+    {
+      "text": "午饭",
+      "start": 118.527791,
+      "duration": 0.472208,
+      "pinyin": "wǔ fàn"
+    },
+    {
+      "text": "有时候",
+      "start": 119.638875,
+      "duration": 0.736125,
+      "pinyin": "yǒu shí hòu"
+    },
+    {
+      "text": "下雨天",
+      "start": 120.680541,
+      "duration": 0.722208,
+      "pinyin": "xià yǔ tiān"
+    },
+    {
+      "text": "也",
+      "start": 121.430541,
+      "duration": 0.138875,
+      "pinyin": "yě"
+    },
+    {
+      "text": "可以",
+      "start": 121.569458,
+      "duration": 0.277791,
+      "pinyin": "kě yǐ"
+    },
+    {
+      "text": "过",
+      "start": 121.875,
+      "duration": 0.138875,
+      "pinyin": "guò"
+    },
+    {
+      "text": "得",
+      "start": 122.013875,
+      "duration": 0.097208,
+      "pinyin": "dé"
+    },
+    {
+      "text": "很",
+      "start": 122.138875,
+      "duration": 0.208333,
+      "pinyin": "hěn"
+    },
+    {
+      "text": "快乐",
+      "start": 122.347208,
+      "duration": 0.611125,
+      "pinyin": "kuài lè"
+    }
+  ],
+  "pinyin_map": {
+    "旁": "páng",
+    "时": "shí",
+    "回": "huí",
+    "准": "zhǔn",
+    "和": "hé",
+    "午": "wǔ",
+    "四": "sì",
+    "方": "fāng",
+    "不": "bù",
+    "三": "sān",
+    "雨": "yǔ",
+    "只": "zhǐ",
+    "段": "duàn",
+    "米": "mǐ",
+    "事": "shì",
+    "吃": "chī",
+    "文": "wén",
+    "乐": "lè",
+    "就": "jiù",
+    "球": "qiú",
+    "思": "sī",
+    "了": "le",
+    "但": "dàn",
+    "识": "shí",
+    "难": "nán",
+    "新": "xīn",
+    "对": "duì",
+    "所": "suǒ",
+    "这": "zhè",
+    "定": "dìng",
+    "认": "rèn",
+    "还": "hái",
+    "鱼": "yú",
+    "欢": "huān",
+    "查": "chá",
+    "决": "jué",
+    "词": "cí",
+    "朋": "péng",
+    "公": "gōng",
+    "本": "běn",
+    "们": "men",
+    "哪": "nǎ",
+    "市": "shì",
+    "饭": "fàn",
+    "绿": "lǜ",
+    "路": "lù",
+    "好": "hǎo",
+    "水": "shuǐ",
+    "城": "chéng",
+    "车": "chē",
+    "十": "shí",
+    "去": "qù",
+    "安": "ān",
+    "意": "yì",
+    "来": "lái",
+    "半": "bàn",
+    "儿": "ér",
+    "点": "diǎn",
+    "道": "dào",
+    "暖": "nuǎn",
+    "菜": "cài",
+    "打": "dǎ",
+    "太": "tài",
+    "起": "qǐ",
+    "园": "yuán",
+    "快": "kuài",
+    "完": "wán",
+    "想": "xiǎng",
+    "间": "jiān",
+    "停": "tíng",
+    "出": "chū",
+    "已": "yǐ",
+    "学": "xué",
+    "看": "kàn",
+    "子": "zi",
+    "今": "jīn",
+    "中": "zhōng",
+    "气": "qì",
+    "到": "dào",
+    "坐": "zuò",
+    "外": "wài",
+    "贵": "guì",
+    "得": "dé",
+    "很": "hěn",
+    "史": "shǐ",
+    "面": "miàn",
+    "馆": "guǎn",
+    "几": "jǐ",
+    "慢": "màn",
+    "读": "dú",
+    "二": "èr",
+    "窗": "chuāng",
+    "近": "jìn",
+    "楼": "lóu",
+    "片": "piàn",
+    "漂": "piāo",
+    "家": "jiā",
+    "门": "mén",
+    "下": "xià",
+    "上": "shàng",
+    "诉": "sù",
+    "备": "bèi",
+    "是": "shì",
+    "经": "jīng",
+    "树": "shù",
+    "正": "zhèng",
+    "静": "jìng",
+    "个": "gè",
+    "以": "yǐ",
+    "味": "wèi",
+    "狗": "gǒu",
+    "又": "yòu",
+    "于": "yú",
+    "汽": "qì",
+    "在": "zài",
+    "多": "duō",
+    "共": "gòng",
+    "然": "rán",
+    "的": "de",
+    "都": "dōu",
+    "高": "gāo",
+    "他": "tā",
+    "没": "méi",
+    "聊": "liáo",
+    "国": "guó",
+    "一": "yī",
+    "明": "míng",
+    "拿": "ná",
+    "找": "zhǎo",
+    "把": "bǎ",
+    "有": "yǒu",
+    "习": "xí",
+    "听": "tīng",
+    "可": "kě",
+    "些": "xiē",
+    "里": "lǐ",
+    "告": "gào",
+    "过": "guò",
+    "关": "guān",
+    "字": "zì",
+    "肉": "ròu",
+    "候": "hòu",
+    "牛": "niú",
+    "机": "jī",
+    "空": "kōng",
+    "鲜": "xiān",
+    "饿": "è",
+    "汉": "hàn",
+    "书": "shū",
+    "图": "tú",
+    "后": "hòu",
+    "走": "zǒu",
+    "我": "wǒ",
+    "长": "zhǎng",
+    "谢": "xiè",
+    "写": "xiě",
+    "友": "yǒu",
+    "单": "dān",
+    "亮": "liàng",
+    "帮": "bāng",
+    "碗": "wǎn",
+    "也": "yě",
+    "觉": "jué",
+    "最": "zuì",
+    "小": "xiǎo",
+    "历": "lì",
+    "那": "nà",
+    "而": "ér",
+    "边": "biān",
+    "天": "tiān",
+    "故": "gù",
+    "户": "hù",
+    "兴": "xīng",
+    "简": "jiǎn",
+    "孩": "hái",
+    "地": "dì",
+    "喜": "xǐ",
+    "手": "shǒu"
+  }
+}

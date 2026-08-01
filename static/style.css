@@ -548,6 +548,18 @@ header p {
   height: 0.75rem;
 }
 
+.dictation-punct {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-muted, #94a3b8);
+  margin: 0 0.15rem;
+  align-self: center;
+  user-select: none;
+}
+
 .word-box {
   position: relative;
   display: flex;
