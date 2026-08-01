@@ -1125,6 +1125,7 @@ def api_save_progress():
         "hidden_pct": data.get("hidden_pct", 100),
         "pace": data.get("pace", 1.0),
         "audio_time": data.get("audio_time", 0),
+        "timer_seconds": data.get("timer_seconds", 0),
         "user_inputs": data.get("user_inputs", {}),
         "last_saved_at": datetime.now().isoformat(),
     }

@@ -340,9 +340,10 @@ document.addEventListener("keydown", (e) => {
     return;
   }
 
-  // Space or Shift → ALWAYS play/pause for Chinese TTS
-  if (e.key === " " || e.code === "Space" || e.key === "Shift" || e.code === "ShiftLeft" || e.code === "ShiftRight") {
+  // Space or Shift → ALWAYS play/pause for Chinese TTS (NEVER trigger IME candidate selection with Space!)
+  if (e.key === " " || e.code === "Space" || e.keyCode === 32 || e.key === "Shift" || e.code === "ShiftLeft" || e.code === "ShiftRight") {
     e.preventDefault();
+    e.stopPropagation();
     togglePlay();
     return;
   }
@@ -361,6 +362,9 @@ document.addEventListener("keydown", (e) => {
 });
 
 document.addEventListener("beforeinput", (e) => {
+  if (e.data === " " || e.inputType === "insertText" && e.data === " ") {
+    e.preventDefault();
+  }
   if (e.data && (e.data.includes("`") || e.data.includes("~") || e.data.includes("·") || e.data.includes("｀") || e.data.includes("～"))) {
     e.preventDefault();
   }
@@ -596,17 +600,17 @@ function handleMultiCharInput(input) {
   const hanziRegex = /[\u3400-\u4dbf\u4e00-\u9fff]/;
   const chars = Array.from(val.trim());
 
-  // Only auto-fill when input contains actual Chinese Hanzi characters (from IME candidate selection 1,2,3,4,5...)
+  // Only auto-fill/auto-advance when input contains actual Chinese Hanzi characters (from IME candidate selection 1,2,3,4,5...)
   const isOnlyHanzi = chars.every((ch) => hanziRegex.test(ch));
   if (!isOnlyHanzi) return;
+
+  const inputs = Array.from(dictationGrid.querySelectorAll("input"));
+  const currentPos = inputs.indexOf(input);
+  if (currentPos === -1) return;
 
   const targetAnswer = input.dataset.answer || "";
 
   if (chars.length > targetAnswer.length && chars.length > 1) {
-    const inputs = Array.from(dictationGrid.querySelectorAll("input"));
-    const currentPos = inputs.indexOf(input);
-    if (currentPos === -1) return;
-
     let charIdx = 0;
     let filledCount = 0;
     for (let p = currentPos; p < inputs.length && charIdx < chars.length; p++) {
@@ -631,6 +635,12 @@ function handleMultiCharInput(input) {
     }
 
     const nextPos = Math.min(currentPos + filledCount, inputs.length - 1);
+    if (inputs[nextPos]) {
+      inputs[nextPos].focus();
+    }
+  } else if (chars.length >= 1) {
+    // 1-character Hanzi selection (e.g. user pressed 1 for '我') -> Auto-advance to next empty box
+    const nextPos = currentPos + 1;
     if (inputs[nextPos]) {
       inputs[nextPos].focus();
     }
@@ -1059,6 +1069,7 @@ if (btnSaveProgress) {
           hidden_pct: pctSelect ? parseInt(pctSelect.value, 10) : 100,
           pace: speedSlider ? parseFloat(speedSlider.value) : 1.0,
           audio_time: audioEl ? audioEl.currentTime : 0,
+          timer_seconds: timerSeconds,
           user_inputs: inputsObj,
         }),
       });
@@ -1131,6 +1142,11 @@ async function checkResumeParam() {
       });
     }
 
+    if (progress.timer_seconds !== undefined) {
+      timerSeconds = parseInt(progress.timer_seconds, 10) || 0;
+      updateTimerDisplay();
+    }
+
     if (progress.audio_time) {
       const targetTime = parseFloat(progress.audio_time);
       const setAudioTime = () => {
@@ -1155,6 +1171,54 @@ async function checkResumeParam() {
   } catch (err) {
     setStatus("Error resuming lesson: " + err.message, true);
   }
+}
+
+/* ── Manual Study Timer ──────────────────────────────────── */
+let timerSeconds = 0;
+let timerInterval = null;
+let isTimerRunning = false;
+
+const timerDisplay = document.getElementById("timerDisplay");
+const btnTimerToggle = document.getElementById("btnTimerToggle");
+
+function formatHHMMSS(totalSec) {
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${pad(h)}:${pad(m)}:${pad(s)}`;
+}
+
+function updateTimerDisplay() {
+  if (timerDisplay) {
+    timerDisplay.textContent = "⏱ " + formatHHMMSS(timerSeconds);
+  }
+}
+
+function toggleManualTimer() {
+  if (isTimerRunning) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+    isTimerRunning = false;
+    if (btnTimerToggle) {
+      btnTimerToggle.textContent = "⏱ Start";
+      btnTimerToggle.classList.remove("running");
+    }
+  } else {
+    isTimerRunning = true;
+    if (btnTimerToggle) {
+      btnTimerToggle.textContent = "⏱ Pause";
+      btnTimerToggle.classList.add("running");
+    }
+    timerInterval = setInterval(() => {
+      timerSeconds++;
+      updateTimerDisplay();
+    }, 1000);
+  }
+}
+
+if (btnTimerToggle) {
+  btnTimerToggle.addEventListener("click", toggleManualTimer);
 }
 
 /* ── Init ────────────────────────────────────────────────── */

@@ -41,7 +41,10 @@
     <div class="card tracking-section" id="trackingSection">
       <div class="tracking-header">
         <div class="card-title" style="margin: 0;">📖 Word Tracking</div>
-        <button class="btn btn-sm btn-outline" id="btnHideTrack" title="Hide / Show text">👁 Hide</button>
+        <div class="header-right-group">
+          <span class="manual-timer-display" id="timerDisplay" title="Real-world elapsed study time">⏱ 00:00:00</span>
+          <button class="btn btn-sm btn-outline" id="btnHideTrack" title="Hide / Show text">👁 Hide</button>
+        </div>
       </div>
       <div class="tracking-words" id="trackingWords"></div>
     </div>
@@ -106,6 +109,7 @@
             </div>
           </div>
         </div>
+        <button class="timer-toggle-btn" id="btnTimerToggle" title="Start/Pause study timer">⏱ Start</button>
       </div>
       <div class="audio-hint">Space = Play/Pause · ` / ~ = Toggle Track · ← → Skip</div>
     </div>
