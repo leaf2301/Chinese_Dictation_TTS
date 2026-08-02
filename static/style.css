@@ -525,7 +525,9 @@ header p {
   border-radius: 6px;
   transition: all 0.15s;
   color: var(--text-muted);
-  user-select: none;
+  cursor: pointer;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 .ruby-pair {
@@ -534,6 +536,8 @@ header p {
   align-items: center;
   justify-content: center;
   margin: 0 1px;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 .ruby-pair .hanzi {
@@ -541,6 +545,8 @@ header p {
   font-weight: 600;
   line-height: 1.2;
   color: inherit;
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 .ruby-pair .pinyin {
@@ -549,6 +555,10 @@ header p {
   line-height: 1.1;
   color: var(--accent);
   margin-top: 3px;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
 }
 
 .track-word.past {

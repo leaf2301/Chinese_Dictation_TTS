@@ -817,21 +817,30 @@ let savedVocab = [];
 let currentLookupData = null;
 const clientLookupCache = {};
 
-// Right-click on selection -> open context popup
-document.addEventListener("contextmenu", async (e) => {
-  const selection = window.getSelection().toString().trim();
+function selectTrackWordHanzi(trackWordEl) {
+  const selection = window.getSelection();
+  selection.removeAllRanges();
+
+  const range = document.createRange();
+  const hanziEls = trackWordEl.querySelectorAll(".hanzi");
+  if (hanziEls.length > 0) {
+    range.setStartBefore(hanziEls[0]);
+    range.setEndAfter(hanziEls[hanziEls.length - 1]);
+    selection.addRange(range);
+  }
+}
+
+async function openLookupForSelection(selection, clientX, clientY) {
   if (!selection || selection.length > 50) {
     contextPopup.classList.remove("visible");
     return;
   }
 
-  e.preventDefault();
-
   const nextStt = savedVocab.length + 1;
   const cleanWordKey = selection.toLowerCase();
 
-  const posX = Math.min(e.clientX, window.innerWidth - 330);
-  const posY = Math.min(e.clientY, window.innerHeight - 200);
+  const posX = Math.min(clientX, window.innerWidth - 330);
+  const posY = Math.min(clientY, window.innerHeight - 200);
   contextPopup.style.left = Math.max(10, posX) + "px";
   contextPopup.style.top = Math.max(10, posY) + "px";
 
@@ -893,6 +902,33 @@ document.addEventListener("contextmenu", async (e) => {
     popupVn.textContent = "Không thể tra từ.";
     contextPopup.classList.add("visible");
   }
+}
+
+// Right-click on selection -> open context popup
+document.addEventListener("contextmenu", (e) => {
+  const selection = window.getSelection().toString().trim();
+  if (!selection || selection.length > 50) {
+    contextPopup.classList.remove("visible");
+    return;
+  }
+
+  e.preventDefault();
+  openLookupForSelection(selection, e.clientX, e.clientY);
+});
+
+// Double-click on track-word -> select full Hanzi phrase and open dictionary lookup
+trackingWords.addEventListener("dblclick", (e) => {
+  const trackWord = e.target.closest(".track-word");
+  if (!trackWord) return;
+
+  e.preventDefault();
+
+  const hanziNodes = trackWord.querySelectorAll(".hanzi");
+  const phraseText = Array.from(hanziNodes).map((n) => n.textContent.trim()).join("");
+  if (!phraseText) return;
+
+  selectTrackWordHanzi(trackWord);
+  openLookupForSelection(phraseText, e.clientX, e.clientY);
 });
 
 // Close popup on outside click
